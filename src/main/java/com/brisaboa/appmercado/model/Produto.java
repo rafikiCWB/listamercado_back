@@ -13,7 +13,7 @@ public class Produto {
 
     @Column(name = "nome_produto", length = 100, nullable = false)
     private String nome;
-
+    /*Pelo JPA é obrigatório ter get and set*/
     public Integer getId() {
         return id;
     }
